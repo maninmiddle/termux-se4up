@@ -20,23 +20,23 @@ read -p $'\n\e[1;92m[\e[0m\e[1;77m*\e[0m\e[1;92m] Choose an option: \e[0m\en' op
 if [[ $option == 1 ]]; then
 clear
 printf "\e[1;93m Installing other Defualt packages... Please be patient \e[0m\n"
-sleep 1
+sleep 2
 pkg install python php wget openssh openssl nano git -y
 clear 
 elif [[ $option == 2 ]]; then
 clear
 pkg install tsu -y
-pkg install unstable-repo root-repo -y
+pkg install root-repo -y
 clear
-printf "\e[1;93m Installing other Root packages... Please be patient \e[0m\n"
-sleep 1
+printf "\e[1;92m[\e[0m\e[1;77m!\e[0m\e[1;92m]\e[0m\e\e[1;93m Installing other Root packages... Please be patient \e[0m\n"
+sleep 2
 clear
 pkg install aircrack-ng bettercap termshark -y
 elif [[ $option == 3 ]]; then
 clear 
 pkg install unstable-repo -y
 printf "\e[1;93m Installing other Special packages... It may take a long time. Please be patient \e[0m\n"
-sleep 1
+sleep 2
 pkg install metasploit sqlmap rapidjson -y 
 else
 printf "\e[1;93m [!] Invalid option!\e[0m\n"
