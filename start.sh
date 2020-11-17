@@ -9,6 +9,8 @@ printf "\e[1;31m | . \| |___|  _ <| |\  | |___| |___  |  __/ ___ \| |\  || | |__
 printf "\e[1;31m |_|\_\_____|_| \_\_| \_|_____|_____| |_| /_/   \_\_| \_|___\____| \e[0m\n"
 printf "\n                                                                          \e[0m\n"
 printf "\e[1;93m       ●\e[0m\e[1;77m coded by: @maninmiddle \e[0m\e[1;93m●\e[0m\n"
+printf "\n                                                                          \e[0m\n"
+printf "\n                                                                          \e[0m\n"
 
 }
 
